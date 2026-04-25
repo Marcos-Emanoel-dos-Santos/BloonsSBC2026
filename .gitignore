@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# C++
+*.exe
+*.out
+*.o
+*.obj
+
+# Java / Kotlin
+*.class
+*.jar
+*.war
+
+# IDEs
+.vscode/
+.idea/
+
+# System
+.DS_Store
