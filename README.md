@@ -4,7 +4,7 @@ Repositório voltado para a centralização de soluções para questões de prep
 
 ## Publicação de soluções
 
-A divisão de conteúdo estará na forma [FONTE DA QUESTÃO] -> [ANO_PROBLEMA] -> [PARTICIPANTE.extensao.
+A divisão de conteúdo estará na forma [FONTE DA QUESTÃO] -> [ANO_PROBLEMA] -> [PARTICIPANTE.extensao].
 Por exemplo, a questão A da Maratona SBC de 2024 resolvida pelo Marcos estará na pasta MaratonaSBC -> 2024_A -> MARCOS.cpp
 
 ### Issues
