@@ -25,7 +25,7 @@ int main(){
         }
         c++;
     }
-    cout << c;
+    cout << c << '\n';
 
     return 0;
 }
