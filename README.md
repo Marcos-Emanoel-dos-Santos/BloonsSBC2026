@@ -1,6 +1,6 @@
 # BloonsSBC2026
 
-Repositório voltado para a centralização de soluções para questões de preparação para a Maratona de Programação da SBC 2026.
+Repositório voltado para a centralização de soluções para questões de preparação para a Maratona de Programação da SBC 2026 e apresentação de algoritmos aprendidos pelos membros.
 
 ## Publicação de soluções
 
