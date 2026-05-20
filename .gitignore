@@ -1,24 +1,4 @@
-# Python
-__pycache__/
-*.py[cod]
-
-# C++
-*.exe
-*.out
-*.o
-*.obj
-
-# Java / Kotlin
-*.class
-*.jar
-*.war
-
-# IDEs
-.vscode/
 .idea/
-
-# Input
-input.txt
-
-# System
+out/
+*.iml
 .DS_Store
