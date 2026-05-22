@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+#include <queue>
 
 using namespace std;
 int main(){
@@ -7,25 +7,46 @@ int main(){
     cin.tie(NULL);
 
     int N; cin >> N;
+    queue<int> dir0;
+    queue<int> dir1;
 
-    int d, t;
-    cin >> d >> t;
-    int tF = t + 10;
+    int d; int t;
 
-    vector<vector<int>> fila;
+    for(int i = 0; i < N; i++){
+        cin >> t >> d;
 
-    for(int i = 0; i < N - 1; i++){
-        int nD, nT;
-        cin >> nT, nD;
-        if(nD == d){
-            if(nT < tF) tF += (nT - t);
-            t = nT;
+        if(d == 0) dir0.push(t);
+        else dir1.push(t);
+    }
+
+    int tF = 0;
+    while(dir0.size() > 0 || dir1.size() > 0){
+        bool escolha0 = false;
+        if(dir1.size() == 0){
+            escolha0 = true;
+        } else if(dir0.size() > 0 && dir0.front() < dir1.front()){
+            escolha0 = true;
+        }
+
+        if(escolha0){
+            tF = max(tF, dir0.front()) + 10;
+            dir0.pop();
+            while(dir0.size() > 0 && dir0.front() < tF){
+                tF = dir0.front() + 10;
+                dir0.pop();
+            }
         }
         else {
-            fila.push_back({t, tF, nD});
+            tF = max(tF, dir1.front()) + 10;
+            dir1.pop();
+            while(dir1.size() > 0 && dir1.front() <= tF){
+                tF = dir0.front() + 10;
+                dir1.pop();
+            }
         }
     }
 
+    cout << tF << '\n';
 
     return 0;
 }
