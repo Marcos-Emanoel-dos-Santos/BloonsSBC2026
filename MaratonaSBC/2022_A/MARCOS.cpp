@@ -16,10 +16,9 @@ int main(){
             if(c > 1) qtd_a += c;
             c = 0;
         }
-
-        if(i == s.size()-1) qtd_a += c;
     }
 
+    if(c > 1) qtd_a += c;
     cout << qtd_a << '\n';
 
     return 0;
