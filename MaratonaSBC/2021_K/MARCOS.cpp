@@ -17,6 +17,7 @@ int main(){
         if(ref - ultimaRef >= T) d = 'Y';
         ultimaRef = ref;
     }
+    if(D - ultimaRef >= T) d = 'Y';
 
     cout << d << '\n';
 

@@ -45,7 +45,7 @@ int main(){
         }
         else {
             profit += item[1] * ((max - qtd) / item[2]);
-            qtd += (max - qtd);
+            qtd = max;
         }
         idx++;
     }
