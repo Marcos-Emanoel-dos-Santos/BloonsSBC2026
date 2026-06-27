@@ -1,5 +1,3 @@
-// https://codeforces.com/problemset/problem/2230/A
-// SOLUÇÃO DO MARCOS
 #include <iostream>
 
 using namespace std;

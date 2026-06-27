@@ -1,5 +1,3 @@
-// https://codeforces.com/problemset/problem/2228/A
-// SOLUÇÃO DO MARCOS
 #include <iostream>
 #include <algorithm>
 
