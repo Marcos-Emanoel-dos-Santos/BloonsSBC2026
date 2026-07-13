@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <cmath>
 using namespace std;
 
 int main(){
@@ -17,12 +18,12 @@ int main(){
     long long median = sticks[n / 2];
 
 
-    long long min = 0;
+    long long min_cost = 0;
     for(int i = 0; i < n; i++){
-        min += abs(median - sticks[i]);
+        min_cost += abs(median - sticks[i]);
     }
 
-    cout << min << '\n';
+    cout << min_cost << '\n';
 
     return 0;
 }
