@@ -1,30 +1,30 @@
-4A - 800 - brute force, math
-20C - 1900 - graphs, shortest paths
-115A - 900 - dfs and similar, graphs, trees
-381A - 800 - greedy, implementation, two pointers
-519E - 2100 - binary search, data structures, dfs and similar, dp, trees
-546A - 800 - brute force, implementation, math
-580C - 900 - brute force, dp, implementation
-702C - 1500 - binary search, implementation, two pointers
-750A - 800 - binary search, brute force, implementation, math
-930A - 800 - graphs
-948A - 900 - brute force, dfs and similar, graphs, implementation
-1915C - 800 - binary search, implementation
-2014C - 1100 - binary search, greedy, math
-2062A - 800 - constructive algorithms, greedy, math, strings
-2197A - 800 - binary search, brute force, expression parsing, math, schedules
-2227D - 1200 - binary search, brute force, constructive algorithms, data structures, greedy, implementation, two pointers
-2228A - 800 - greedy, implementation
-2229B - 800 - greedy, math
-2230A - 800 - implementation, math
-2230D - 1700 - dp, greedy
-*2232B - 2000 - constructive algorithms, dfs and similar, dp, greedy
-2233A - 800 - brute force, math
-2234B - 800 - brute force, constructive algorithms, math
-2236A - 800 - greedy, math
-2238A - 800 - greedy, math, sortings
-2238C - 800 - dfs and similar, dp, trees
-2242D - 1600 - dp, strings
-2250A - 800 - brute force, implementation, math
-2255A - 1200 - games, greedy, implementation
-2256A - 800 - math, sortings
+4A     - 800  - brute_force, math
+20C    - 1900 - graphs, shortest_paths
+115A   - 900  - dfs_and_similar, graphs, trees
+381A   - 800  - greedy, implementation, two_pointers
+519E   - 2100 - binary_search, data_structures, dfs_and_similar, dp, trees
+546A   - 800  - brute_force, implementation, math
+580C   - 900  - brute_force, dp, implementation
+702C   - 1500 - binary_search, implementation, two_pointers
+750A   - 800  - binary_search, brute_force, implementation, math
+930A   - 800  - graphs
+948A   - 900  - brute_force, dfs_and_similar, graphs, implementation
+1915C  - 800  - binary_search, implementation
+2014C  - 1100 - binary_search, greedy, math
+2062A  - 800  - constructive_algorithms, greedy, math, strings
+2197A  - 800  - binary_search, brute_force, expression_parsing, math, schedules
+2227D  - 1200 - binary_search, brute_force, constructive_algorithms, data_structures, greedy, implementation, two_pointers
+2228A  - 800  - greedy, implementation
+2229B  - 800  - greedy, math
+2230A  - 800  - implementation, math
+2230D  - 1700 - dp, greedy
+*2232B - 2000 - constructive_algorithms, dfs_and_similar, dp, greedy
+2233A  - 800  - brute_force, math
+2234B  - 800  - brute_force, constructive_algorithms, math
+2236A  - 800  - greedy, math
+2238A  - 800  - greedy, math, sortings
+2238C  - 800  - dfs_and_similar, dp, trees
+2242D  - 1600 - dp, strings
+2250A  - 800  - brute_force, implementation, math
+2255A  - 1200 - games, greedy, implementation
+2256A  - 800  - math, sortings
